@@ -1,0 +1,181 @@
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(76, 76, 112);
+    padding: 20px 9%;
+    transition: all .5s ease;
+  
+
+    
+    
+}
+.logo{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.navbar{
+    display: flex;
+
+
+}
+.navbar a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0px 25px;
+    text-decoration: none;
+    transition: all.50s ease;
+
+}
+.navbar a:hover{
+    color: rgb(23, 24, 24);
+}
+.navbar-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-btn a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5px 10px;
+     
+    
+    text-decoration: none;
+    transition: all.50s ease;
+}
+
+.navbar-btn a:hover{
+    color: rgb(23, 24, 24);
+}
+.menu{
+    
+      margin-left: auto;
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 1280px) {
+    header{
+        padding: 10px 2% ;
+        transition: .2s;
+
+    }
+    .navbar a{
+        padding: 5px 0;
+        margin: 0px 20px;
+    }
+    .navbar-btn {
+        margin-right: 20px;
+    }
+    
+}
+@media (max-width: 1090px) {
+    .menu{
+        display: block;
+        background: transparent;
+        margin-right: 10px;
+    }
+    .navbar{
+
+    z-index: 1001;
+
+        position: absolute;
+        top: 230px;
+        right: -100%;
+        width: 280px;
+        height: 50vh;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+    .navbar a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all .50s ease;
+    }
+    .navbar a:hover{
+        background-color: rgb(23, 24, 24);
+        color: white;
+    }
+   
+    .activeMenu{
+
+
+    right: 7px !important;
+    top: 90px !important; /* match header height */
+}
+
+   
+
+
+/* Sticky effect when scrolling */
+header.sticky {
+    background: rgba(194, 194, 238, 0.9); /* Semi-transparent effect */
+    padding: 10px 9%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.Header-m{
+    margin-bottom: 100px;
+}
+.Font{
+    font-size: 25px;
+}
+
+
+
+
+.cart-icon-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-count-badge {
+    font-size: 0.7rem;
+    padding: 4px 6px;
+    background-color: red;
+    color: white;
+  }
+
+
+
+  ///
+
+
+  .whatsapp-icon {
+    margin-right: 5px;
+
+    color: #25D366;
+    font-size: 40px;
+    transition: transform 0.2s;
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+

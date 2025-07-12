@@ -1,0 +1,37 @@
+.card {
+  
+    margin-bottom: 20px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block
+  }
+  
+  .quantity-control button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+  
+  .quantity-control span {
+    
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  
+  .mt-2 {
+    margin-top: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
