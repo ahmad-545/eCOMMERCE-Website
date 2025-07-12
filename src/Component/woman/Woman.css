@@ -1,0 +1,26 @@
+.Container{
+    margin-top: 30px;
+}
+.Addcart-btn{
+    background: rgba(179, 179, 231, 0.9);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.Addcart-btn:hover{
+    background: rgba(179, 179, 231, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.05);
+}
